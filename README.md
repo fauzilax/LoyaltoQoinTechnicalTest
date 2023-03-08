@@ -39,11 +39,11 @@ Berikut adalah Diagram aplikasi rumah makan sederhana:
 
 - Clone to directory
 
-``` $git clone github.com/fauzilax/LoyaltoQoinTechnicalTest.git ```
+  ``` $git clone github.com/fauzilax/LoyaltoQoinTechnicalTest.git ```
 
 - Change directory
-
- ``` cd LoyaltoQoinTechnicalTest```
+ 
+  ``` cd LoyaltoQoinTechnicalTest```
  
 - Run The Program
 
