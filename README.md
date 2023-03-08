@@ -13,4 +13,4 @@ lebih baik.
 (catatan: Soal ini tidak membutuhkan pengambil test untuk membuat aplikasi (coding). )
 
 Berikut adalah Diagram aplikasi rumah makan sederhana:
-<img src="/Soal-1/diagram.png"></img>
+<img src="Soal-1/diagram.png">
