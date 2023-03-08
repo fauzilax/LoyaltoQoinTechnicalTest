@@ -38,15 +38,15 @@ Berikut adalah Diagram aplikasi rumah makan sederhana:
 <h2>Soal Praktek</h2>
 
 - Clone to directory
-- 
+
 ``` $git clone github.com/fauzilax/LoyaltoQoinTechnicalTest.git ```
 
 - Change directory
-- 
+
  ``` cd LoyaltoQoinTechnicalTest```
  
 - Run The Program
-- 
+
   ``` $go run main.go ```
 
 
