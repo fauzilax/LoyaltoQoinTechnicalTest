@@ -26,7 +26,7 @@ Berikut adalah Diagram aplikasi rumah makan sederhana:
 5. order_menus merupakan table yang berelasi dengan orders dan menus sehingga semua menu yang dipesan customers akan tercatat disini
 
 <h4>Technology yang akan dipakai adalah:</h4>
-1. Go merupakan salah satu bahasa pemograman yang kinerja nya sangat cepat dan mudah dipelajari sehingga cocok untuk dijadikan sebagai bahasa pemograman untuk Backend<br>
+<b>Go</b> merupakan salah satu bahasa pemograman yang kinerja nya sangat cepat dan mudah dipelajari sehingga cocok untuk dijadikan sebagai bahasa pemograman untuk Backend<br>
 2. ReactJs merupakan salah satu framework front end yang responsifnya cepat dan interaktif. reactjs juga merupakan framework yang populer saat ini<br>
 3. Mysql dipilih sebagai sistem manajemen basis data karena mudah digunakan dan dapat menangani skala besar data. MySQL juga memungkinkan penggunaan indeks pada tabel-tabel database, sehingga mempercepat pengambilan data pada saat aplikasi membutuhkan laporan penghasilan mingguan dan bulanan serta laporan stok.<br>
 4. GORM merupakan salah satu library ORM dari bahaasa pemograman Go, gorm memudahkan nantinya untuk berinteraksi dengan data<br>
