@@ -54,6 +54,8 @@ a. Untuk pemain yang tidak memiliki dadu lagi dianggap telah selesai bermain.
 Buatlah script ini menggunakan bahasa yang kamu kuasai.
 
 
+<h3>Jawaban</h3>
+
 - Clone to directory
 
   ``` $git clone github.com/fauzilax/LoyaltoQoinTechnicalTest.git ```
