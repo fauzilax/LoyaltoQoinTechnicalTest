@@ -37,8 +37,7 @@ Berikut adalah Diagram aplikasi rumah makan sederhana:
 
 <h2>II. Soal Praktek</h2>
 
-Buatlah sebuah script permainan dadu yang menerima input N jumlah pemain dan M jumlah
-dadu, dengan peraturan sebagai berikut:
+Buatlah sebuah script permainan dadu yang menerima input N jumlah pemain dan M jumlah dadu, dengan peraturan sebagai berikut:
 1. Pada awal permainan, setiap pemain mendapatkan dadu sejumlah M unit.
 2. Semua pemain akan melemparkan dadu mereka masing-masing secara bersamaan
 3. Setiap pemain akan mengecek hasil dadu lemparan mereka dan melakukan evaluasi
