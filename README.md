@@ -33,3 +33,7 @@ Berikut adalah Diagram aplikasi rumah makan sederhana:
 <li>GORM merupakan salah satu library ORM dari bahaasa pemograman Go, gorm memudahkan nantinya untuk berinteraksi dengan data</li>
 <li>Echo merupakan salah satu framework dari bahasa pemograman Go , dipilih karena sangat ringan dan performanya cepat, sangat bagus jika digunakan untuk membuat API</li>
 <ul>
+
+- Soal Praktek
+  
+  ``` $go run main.go ```
