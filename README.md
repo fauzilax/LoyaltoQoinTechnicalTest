@@ -36,8 +36,9 @@ Berikut adalah Diagram aplikasi rumah makan sederhana:
 </ul>
 
 <h2>Soal Praktek</h2>
+
 - Clone to directory
-``` $git clone github.com/fauzilax/LoyaltoQoinTechnicalTest.git```
+``` $git clone github.com/fauzilax/LoyaltoQoinTechnicalTest.git ```
 
 - Change directory
  ``` cd LoyaltoQoinTechnicalTest```
