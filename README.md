@@ -17,7 +17,8 @@ Berikut adalah Diagram aplikasi rumah makan sederhana:
 <img src="Soal-1/diagram.png">
 
 <h3>Penjelasan</h3>
-Dalam diagram tersebut terdapat 5 table: 
+
+<h4>Dalam diagram tersebut terdapat 5 table:</h4> 
 1. employees merupakan table yang berisikan admin,kasir nantinya
 2. menus merupkan table untuk menyimpan data semua menu makanan di restaurant
 3. structs merupakan table yang digunakan untuk mencetak struk pembayaran
