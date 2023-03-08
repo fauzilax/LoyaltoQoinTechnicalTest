@@ -15,3 +15,14 @@ lebih baik.
 Berikut adalah Diagram aplikasi rumah makan sederhana:
 
 <img src="Soal-1/diagram.png">
+
+<h3>Penjelasan</h3>
+Dalam diagram tersebut terdapat 5 table: employees,menus,structs,orders,order_menus
+
+Technology yang akan dipakai adalah:
+1. Go
+go merupakan salah satu bahasa pemograman yang kinerja nya sangat cepat sehingga cocok untuk dijadikan sebagai bahasa pemograman untuk Backend
+2. ReactJs 
+merupakan salah satu framework front end yang responsifnya cepat dan interaktif. reactjs juga merupakan framework yang populer saat ini
+3. Mysql 
+merupakan
