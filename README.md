@@ -19,9 +19,9 @@ Berikut adalah Diagram aplikasi rumah makan sederhana:
 <h3>Penjelasan</h3>
 
 <h4>Dalam diagram tersebut terdapat 5 table:</h4>
-1. employees merupakan table yang berisikan admin,kasir nantinya<br>
-2. menus merupkan table untuk menyimpan data semua menu makanan di restaurant<br>
-3. structs merupakan table yang digunakan untuk mencetak struk pembayaran<br>
+1. employees merupakan table yang berisikan admin,kasir nantinya
+2. menus merupkan table untuk menyimpan data semua menu makanan di restaurant
+3. structs merupakan table yang digunakan untuk mencetak struk pembayaran
 4. orders merupakan table yang digunakan oleh kasir untuk mencatat pesanan customers<br>
 5. order_menus merupakan table yang berelasi dengan orders dan menus sehingga semua menu yang dipesan customers akan tercatat disini
 
