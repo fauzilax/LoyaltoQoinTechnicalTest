@@ -1,5 +1,6 @@
-# LoyaltoQoinTechnicalTest
-- Soal Teori
+# <h1>LoyaltoQoinTechnicalTest</h1>
+<h2>Soal Teori<h2>
+
 1. Rancangkanlah diagram database untuk aplikasi rumah makan.
 Jelaskan teknologi yang akan dipakai untuk aplikasi ini dan mengapa anda memilih teknologi
 tersebut.
@@ -34,6 +35,6 @@ Berikut adalah Diagram aplikasi rumah makan sederhana:
 <li>Echo merupakan salah satu framework dari bahasa pemograman Go , dipilih karena sangat ringan dan performanya cepat, sangat bagus jika digunakan untuk membuat API</li>
 </ul>
 
-- Soal Praktek
+<h2>Soal Praktek<h2>
   
   ``` $go run main.go ```
