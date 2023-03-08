@@ -14,4 +14,4 @@ lebih baik.
 
 Berikut adalah Diagram aplikasi rumah makan sederhana:
 
-<img src="Soal-1/diagram.PNG">
+<img src="Soal-1/diagram.png">
