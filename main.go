@@ -6,6 +6,12 @@ import (
 	"time"
 )
 
+func remove(slice []int, index int) []int {
+	fmt.Println("yang dihapus index ke -", index, " dari ", slice)
+	copy(slice[index:], slice[index+1:])
+	return slice[:len(slice)-1]
+}
+
 func main() {
 	// Input jumlah pemain dan jumlah dadu
 	var n, m int
@@ -19,6 +25,7 @@ func main() {
 	dice := make([][]int, n)
 	points := make([]int, n)
 	tempPoint := make(map[int]int, n)
+	player := []int{}
 	// Memasukkan dadu awal untuk setiap pemain
 	rand.Seed(time.Now().UnixNano())
 	for i := 0; i < n; i++ {
@@ -27,6 +34,7 @@ func main() {
 			dice[i][j] = rand.Intn(6) + 1
 		}
 		tempPoint[i+1] = 0
+		player = append(player, i+1)
 	}
 	fmt.Println(tempPoint)
 	// Memulai permainan
@@ -39,7 +47,7 @@ func main() {
 			for j := 0; j < m; j++ {
 				dice[i][j] = rand.Intn(6) + 1
 			}
-			fmt.Printf("\tPemain #%d melempar dadu: %v\n", i+1, dice[i])
+			fmt.Printf("\tPemain #%d melempar dadu: %v\n", player[i], dice[i])
 		}
 
 		// Evaluasi hasil lemparan dadu
@@ -66,7 +74,8 @@ func main() {
 				}
 			}
 			if remainingDice == 0 {
-				fmt.Printf("\t(Pemain %d berhenti karena tidak memiliki dadu lagi)\n", i+1)
+				fmt.Printf("\t(Pemain %d berhenti karena tidak memiliki dadu lagi)\n", player[i])
+				player = remove(player, i)
 			}
 		}
 
@@ -92,11 +101,12 @@ func main() {
 		// Menampilkan poin setiap pemain
 		fmt.Println("Setelah evaluasi")
 		for i := 0; i < n; i++ {
-			fmt.Printf("\tPemain %d: %d poin\n", i+1, points[i])
-			tempPoint[i+1] = points[i]
+			fmt.Printf("\tPemain %d: %d poin\n", player[i], points[i])
+			tempPoint[player[i]] = points[i]
 		}
 		round++
 		// fmt.Println(points)
+		fmt.Println(player)
 	}
 	// fmt.Println(tempPoint)
 	// Hasil Akhir
@@ -107,6 +117,11 @@ func main() {
 			winner[0] = i
 		}
 	}
+	fmt.Println("RESULT :")
+	for i, hasil := range tempPoint {
+		fmt.Println("Pemain #", i, " = ", hasil, " point")
+	}
+	fmt.Println("")
 	if winner[0] == 0 && winner[1] == 0 {
 		fmt.Println("Semua pemain tidak mendapatkan point sehingga DRAW")
 	} else {
