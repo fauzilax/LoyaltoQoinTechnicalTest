@@ -7,7 +7,7 @@ import (
 )
 
 func remove(slice []int, index int) []int {
-	fmt.Println("yang dihapus index ke -", index, " dari ", slice)
+	// fmt.Println("yang dihapus index ke -", index, " dari ", slice)
 	copy(slice[index:], slice[index+1:])
 	return slice[:len(slice)-1]
 }
@@ -36,7 +36,7 @@ func main() {
 		tempPoint[i+1] = 0
 		player = append(player, i+1)
 	}
-	fmt.Println(tempPoint)
+	// fmt.Println(tempPoint)
 	// Memulai permainan
 	round := 1
 	for n > 1 {
@@ -106,7 +106,7 @@ func main() {
 		}
 		round++
 		// fmt.Println(points)
-		fmt.Println(player)
+		// fmt.Println(player)
 	}
 	// fmt.Println(tempPoint)
 	// Hasil Akhir
